@@ -1,0 +1,19 @@
+{
+  "name": "@ping-pong-dice/node",
+  "version": "1.0.0",
+  "description": "a ping pong style TDD exercise to practise pragmatic pair TDD in nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "standard && tap ./index.test.js",
+    "watch": "standard && nodemon --exec 'npm test'",
+    "fix": "standard --fix"
+  },
+  "author": "Vivalio",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "standard": "^17.1.0",
+    "tap": "^18.7.1"
+  }
+}
